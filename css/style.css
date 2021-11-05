@@ -55,3 +55,25 @@ img {
     left: 300px;
     bottom: 300px;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-img {
+    width: 25%;
+}
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sport-img {
+    width: 27%;
+    float: right;
+    margin-right: 30px;
+}
