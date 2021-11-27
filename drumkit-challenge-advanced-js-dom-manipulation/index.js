@@ -1,10 +1,13 @@
 
-const buttons = document.querySelectorAll(".drum");
-buttons.forEach(function(currentButton){
-    currentButton.addEventListener("click",handleClick);
-});
+const length = document.querySelectorAll(".drum").length;
 
+for(var i=0;i<length;i++){
+    document.querySelectorAll(".drum")[i].addEventListener("click",function() {
+    var audio = new Audio("sounds/tom-1.mp3");
+    audio.play();
 
-function handleClick(){
-    alert("I got clicked !");
+    console.log(this);
+    this.style.color="blue";
+
+    });
 }
